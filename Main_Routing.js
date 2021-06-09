@@ -12,8 +12,7 @@ import HomePage from "./HomePage";
 import ShopByCategory from "./ShopByCategory";
 import OtpVerification from "./OtpVerification";
 import ChangePassword from "./ChangePassword";
-import AddAddress from "./AddAddress";
-import SavedAddresses from "./SavedAddresses";
+
 const InitialNavigator = createSwitchNavigator ({
     Login: Login,
     Register:Register,
@@ -24,8 +23,6 @@ const InitialNavigator = createSwitchNavigator ({
     ShopByCategory:ShopByCategory,
     OtpVerification:OtpVerification,
     ChangePassword:ChangePassword,
-    AddAddress:AddAddress,
-    SavedAddresses:SavedAddresses
 }, {
     initialRouteName: 'Login',
 },

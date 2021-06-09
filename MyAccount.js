@@ -58,7 +58,7 @@ source={require('./assets/placeholder.jpg')}/>
                    
 </View>
 <View style={{alignContent:'center',alignItems:'center'}}>
-<TouchableOpacity onPress={()=> this.props.navigation.navigate('SavedAddresses')} style={{height:65,flexDirection:'row',padding:5,borderBottomWidth:1,width:screenWidth,borderBottomColor:'#e9e9e9'}}>
+<TouchableOpacity style={{height:65,flexDirection:'row',padding:5,borderBottomWidth:1,width:screenWidth,borderBottomColor:'#e9e9e9'}}>
      
      <View style={{padding:15}}>
                         <Image 
